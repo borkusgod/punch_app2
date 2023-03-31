@@ -2,28 +2,33 @@
 import functions_pyc
 
 
-class Employee:
-    def __init__(self, name):
-        self.name = name
+class Person:
+    def __init__(self,
+                 f_name,
+                 l_name,
+                 crnt_prj,
+                 clock_state=False):
+        self.f_name = f_name
+        self.l_name = l_name
+        self.crnt_prj = crnt_prj
+        self.clock_state = clock_state
 
-
-class PunchClass:
-    def __init__(self, name):
-        self.name = name
+    def myfunc(self):
+        print(
+            self.f_name + " " + self.l_name + " is currently assigned to the "
+                                              "" + self.crnt_prj + " project")
 
     def punch_in(self):
-        print(self.name + " punched in")
+        self.clock_state = True
+
+    def punch_in2(self):
+        pass
 
     def lunch_out(self):
-        print(self.name + " punched out for lunch.")
+        print(self.f_name + " has punched out for lunch time")
 
     def lunch_in(self):
-        print(self.name + " punched back in from lunch.")
+        print(self.f_name + " has punched back in from lunch")
 
     def punch_out(self):
-        print(self.name + " punched out for the day.")
-
-
-get_name = input("Please enter your name: ")
-p1 = PunchClass(get_name)
-p1.punch_in()
+        print(self.f_name + " has punched out for the day")

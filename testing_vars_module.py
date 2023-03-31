@@ -1,7 +1,7 @@
 from datetime import datetime
 
 year_var = 2023
-time_vars = ['7', '12', '12:30', '16:30']
+test_vars = ['7:00', '12:00', '12:30', '16:30']
 
 week_punch_comtainer = []
 
