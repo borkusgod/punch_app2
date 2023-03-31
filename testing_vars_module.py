@@ -21,3 +21,10 @@ wed = datetime(2023, 3, 22, 7, 00, 00)
 thur = datetime(2023, 3, 23, 7, 00, 00)
 
 fri = datetime(2023, 3, 24, 7, 00, 00)
+
+temp_list = (2023, 3, 24, 7, 00, 00)
+#temp_list2 = [character for character in fri]
+# fri_temp = datetime(temp_list)
+
+sat = datetime(temp_list)
+print(sat)
