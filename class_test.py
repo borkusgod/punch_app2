@@ -4,10 +4,12 @@ class Person:
     def __init__(self,
                  f_name,
                  l_name,
-                 crnt_prj):
+                 crnt_prj,
+                 clock_state=False):
         self.f_name = f_name
         self.l_name = l_name
         self.crnt_prj = crnt_prj
+        self.clock_state = clock_state
 
     def myfunc(self):
         print(
@@ -15,7 +17,7 @@ class Person:
                                               "" + self.crnt_prj + " project")
 
     def punch_in(self):
-        print(self.f_name + " has punched in for the morning")
+        self.clock_state = True
 
     def punch_in2(self):
         pass
