@@ -4,7 +4,7 @@ class Person:
     def __init__(self,
                  f_name,
                  l_name,
-                 crnt_prj,
+                 crnt_prj='Time app',
                  clock_state=False):
         self.f_name = f_name
         self.l_name = l_name

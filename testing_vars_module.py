@@ -1,5 +1,9 @@
 from datetime import datetime
 
+test_user_fn = 'Bill'
+test_user_ln = 'Bourque'
+test_user_prj = 'Time App'
+
 year_var = 2023
 test_vars = ['7:00', '12:00', '12:30', '16:30']
 
