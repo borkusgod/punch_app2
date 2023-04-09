@@ -1,0 +1,19 @@
+{
+  "empid": "0001",
+  "time_app": {
+    "name": "William Bourque",
+    "gender": "Male",
+    "age": 46,
+    "address": {
+      "streetaddress": "555 Montana Ave",
+      "city": "Athens",
+      "state": "ME",
+      "postalcode": "66612"
+    }
+  },
+  "profile": {
+    "designation": "Owner Operator",
+    "department": "Administration"
+  }
+
+}
